@@ -1,0 +1,15 @@
+Package: cranscan
+Title: Scans CRAN to Find Relevant R Packages
+Version: 0.0.0.9000
+Authors@R: person("Nicholas", "Tierney", email = "nicholas.tierney@gmail.com", role = c("aut", "cre"))
+Description: cranscan provides functions to explore packages on CRAN so that you
+    can more easily find related ones. It enables this through the use of a 
+    shiny app similar to the package papr, which uses swiping to allow users to
+    choose R packages that are related or not to their keywords.
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    cranlogs
+RoxygenNote: 6.0.1.9000
