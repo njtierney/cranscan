@@ -1,20 +1,5 @@
----
-output:
-  md_document:
-    variant: markdown_github
----
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, echo = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "README-"
-)
-```
-
-# cranscan
+cranscan
+========
 
 The goal of cranscan is to make it easy to search for relevant R packages to your interests, using an interface based on [papr](https://github.com/jtleek/papr).
-
